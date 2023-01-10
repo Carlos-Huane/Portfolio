@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: blueviolet;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    margin-top: 20px;
+    font-size: clamp(26px,5vw,32px);
+}

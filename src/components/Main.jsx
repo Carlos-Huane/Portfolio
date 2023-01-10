@@ -11,7 +11,7 @@ const Main = () => {
           <h2 className={styles.text}>Carlos Huane</h2>
         </div>
         <div>
-          <h2 className={styles.text}>Front End Developer</h2>
+          <h2 className={[styles.textEnd]}>Front End Developer</h2>
         </div>
         <div className={styles.description}>
           <p>I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. 

@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import styles from '../styles/work.module.css';
 
-const Worker = () => {
+const Work = () => {
   return (
-    <div>Worker</div>
+    <div className={styles.container}>
+      <h2 className={styles.title}>Work</h2>
+      <div>
+        
+      </div>
+    </div>
   )
 }
 
-export default Worker
+export default Work
