@@ -13,7 +13,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className={styles.logo}/>
           <ul className={styles.links}>
             <li className={styles.content}><span>01.</span> About</li>
-            <li className={styles.content}><span>02.</span> Experience</li>
+            <li className={styles.content}><span>02.</span> Skills</li>
             <li className={styles.content}><span>03.</span> Work</li>
             <li className={styles.content}><span>04.</span> Contact</li>
           </ul>

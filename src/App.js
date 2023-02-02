@@ -3,8 +3,9 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
-import styles from './styles/app.module.css';
+import Contact from './components/Contact.jsx';
 
+import styles from './styles/app.module.css';
 const App = () => {
   return (
     <div className={styles.app}>
@@ -13,6 +14,8 @@ const App = () => {
       <About />
       <Skills />
       <Work />
+      <Contact />
+      
     </div>
   );
 
